@@ -11,6 +11,5 @@ public class Baitap15Application {
 
 		PizzaController pizzaController = context.getBean(PizzaController.class);
 		System.out.println(pizzaController.getPizza());
-		#
 	}
 }
