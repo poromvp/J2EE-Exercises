@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Person</title>
+</head>
+<body>
+<h1 style="color: blue;">Add Person</h1>
+
+<!-- Form nhập liệu kết nối với đường dẫn /addPerson bằng phương thức POST -->
+<form th:action="@{/addPerson}" th:object="${person}" method="POST">
+
+    <!-- Hiển thị dòng thông báo lỗi (nếu có) -->
+    <div th:if="${errorMessage}" th:text="${errorMessage}" style="color: red; margin-bottom: 10px;"></div>
+
+    <table border="0">
+        <tr>
+            <td>First Name:</td>
+            <!-- th:field kết nối trực tiếp ô nhập này với biến firstName của đối tượng Person -->
+            <td><input type="text" th:field="*{firstName}" /></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <!-- th:field kết nối trực tiếp ô nhập này với biến lastName của đối tượng Person -->
+            <td><input type="text" th:field="*{lastName}" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Add Person" /></td>
+        </tr>
+    </table>
+</form>
+
+<br><br>
+<a th:href="@{/personList}">Quay lại danh sách</a>
+</body>
+</html>
