@@ -1,4 +1,4 @@
-package com.example.artcatalogservice;
+package com.example.art_catalog_service;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
