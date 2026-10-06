@@ -17,4 +17,15 @@ A comprehensive collection of enterprise application architectures, including tr
   - **JPA**: Object-Relational Mapping (EclipseLink/Hibernate)
   - **Web Services**: RESTful (JAX-RS) and SOAP (JAX-WS)
 
+### Modern Microservices (Spring Boot)
+- **Framework**: Spring Boot
+- **Key Technologies**:
+  - **Spring MVC**: REST APIs
+  - **Spring Data JPA**: Database access
+  - **Spring Cloud**: Cloud native features
+  - **Spring Security**: Authentication & Authorization
+  - **Spring Cloud Gateway**: API Gateway
+  - **Docker**: Containerization
+  - **Kubernetes**: Orchestration
+
 
