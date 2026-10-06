@@ -28,4 +28,8 @@ A comprehensive collection of enterprise application architectures, including tr
   - **Docker**: Containerization
   - **Kubernetes**: Orchestration
 
+## 📂 Project Structure
+
+The repository contains two main branches of projects:
+
 
