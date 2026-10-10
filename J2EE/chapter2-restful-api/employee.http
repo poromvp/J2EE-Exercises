@@ -1,0 +1,15 @@
+
+### 1. Lấy danh sách nhân viên
+GET http://localhost:8080/employees
+Accept: application/json
+
+### 2. Tạo nhân viên mới
+POST http://localhost:8080/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Nguyen Van B",
+  "email": "a@aa.com",
+  "position": "Developer"
+}
